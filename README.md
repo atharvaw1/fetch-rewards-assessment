@@ -1,6 +1,7 @@
 # Text Comparison Web Service
 
-This project implements a web service for comparing text similarity using various methods, including Cosine Similarity, Euclidean Distance, Jaccard Similarity and Dynamic Time Warping (DTW) Distance. The service is built using Flask, a lightweight web framework for Python.
+This project implements a web service for comparing text similarity using various methods, including Cosine Similarity, Euclidean Distance, Jaccard Similarity and Dynamic Time Warping (DTW) Distance. The service is built using Flask, a lightweight web framework for Python. 
+Note:Cosine and DTW seem to work the best.
 
 ## Getting Started
 

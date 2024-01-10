@@ -59,7 +59,7 @@ The web service will be accessible at http://127.0.0.1:5000/. Ensure that the se
 
 Example Request:
 ```bash
-curl -X POST -H "Content-Type: application/json" -d '{"text1": "Sample text 1", "text2": "Sample text 2", "metric": "jaccard", "n_grams":2}' http://127.0.0.1:5000/compare
+curl -X POST -H "Content-Type: application/json" -d '{"text1": "Sample text 1", "text2": "Sample text 2", "metric": "jaccard", "n_gram":2}' http://127.0.0.1:5000/compare
 ```
 
 Supported metrics:
